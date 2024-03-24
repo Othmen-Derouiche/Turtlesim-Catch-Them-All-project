@@ -22,14 +22,7 @@ Requires a ROS2 distribution (e.g., ROS2 Humble LTS).
 
 1. Clone this repository in your ROS2 workspace.
 2. Build the package (`colcon build --symlink-install`).
-
-## Launching the Simulation:
-
-Launch the simulation with:
-
-```bash
-ros2 launch turtlesim turtlesim_catch_them_all.launch.py
-
+3. 
 ## Developpment :
 
 If you want to go further you can, for example:
@@ -41,3 +34,11 @@ If you want to go further you can, for example:
 
 - Change the pen color each time the “master turtle” has caught another turtle.
 - Add another “master turtle” node to catch turtles even faster!
+## Launching the Simulation:
+
+Launch the simulation with:
+
+```bash
+ros2 launch turtlesim turtlesim_catch_them_all.launch.py
+
+
