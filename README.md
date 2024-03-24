@@ -30,7 +30,10 @@ Launch the simulation with:
 ```bash
 ros2 launch turtlesim turtlesim_catch_them_all.launch.py
 ```
-![screenshot](files/screenshot.png)
+<p align="center">
+  <img src="files/screenshot.png" alt="screenshot" />
+</p>
+
 ## Developpment :
 If you want to go further you can, for example:
 
