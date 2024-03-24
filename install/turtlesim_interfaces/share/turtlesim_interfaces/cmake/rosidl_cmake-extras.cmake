@@ -1,0 +1,1 @@
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

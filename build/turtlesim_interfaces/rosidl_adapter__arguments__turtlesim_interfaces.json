@@ -1,0 +1,8 @@
+{
+  "package_name": "turtlesim_interfaces",
+  "non_idl_tuples": [
+    "/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces:msg/Turtle.msg",
+    "/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces:msg/TurtleArray.msg",
+    "/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces:srv/CatchTurtle.srv"
+  ]
+}

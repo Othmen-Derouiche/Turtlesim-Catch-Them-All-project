@@ -1,0 +1,76 @@
+[1.768s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/othmene/Turtlesim-Catch-Them-All-project']
+[1.768s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/othmene/Turtlesim-Catch-Them-All-project'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbb94bcad40>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fbb94b76620>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fbb94b76620>>)
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.894s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/othmene/Turtlesim-Catch-Them-All-project'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extensions ['ignore', 'ignore_ament_install']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'ignore_ament_install'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'colcon_pkg'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extensions ['colcon_meta']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'colcon_meta'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extensions ['ros']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'ros'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extensions ['cmake', 'python']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'cmake'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'python'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extensions ['python_setup_py']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project) by extension 'python_setup_py'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/build) by extensions ['ignore', 'ignore_ament_install']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/build) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/build) ignored
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/install) by extensions ['ignore', 'ignore_ament_install']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/install) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/install) ignored
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/log) by extensions ['ignore', 'ignore_ament_install']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/log) by extension 'ignore'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/log) ignored
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extensions ['ignore', 'ignore_ament_install']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'ignore'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'ignore_ament_install'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extensions ['colcon_pkg']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'colcon_pkg'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extensions ['colcon_meta']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'colcon_meta'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extensions ['ros']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'ros'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extensions ['cmake', 'python']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'cmake'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'python'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extensions ['python_setup_py']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src) by extension 'python_setup_py'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extension 'ignore'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extension 'ignore_ament_install'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extensions ['colcon_pkg']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extension 'colcon_pkg'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extensions ['colcon_meta']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extension 'colcon_meta'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extensions ['ros']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup) by extension 'ros'
+[1.930s] DEBUG:colcon.colcon_core.package_identification:Package '/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup' with type 'ros.ament_cmake' and name 'turtlesim_bringup'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extensions ['ignore', 'ignore_ament_install']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extension 'ignore'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extension 'ignore_ament_install'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extensions ['colcon_pkg']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extension 'colcon_pkg'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extensions ['colcon_meta']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extension 'colcon_meta'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extensions ['ros']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all) by extension 'ros'
+[1.933s] DEBUG:colcon.colcon_core.package_identification:Package '/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_catch_them_all' with type 'ros.ament_python' and name 'turtlesim_catch_them_all'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extension 'ignore'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extension 'ignore_ament_install'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extensions ['colcon_pkg']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extension 'colcon_pkg'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extensions ['colcon_meta']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extension 'colcon_meta'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extensions ['ros']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces) by extension 'ros'
+[1.935s] DEBUG:colcon.colcon_core.package_identification:Package '/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_interfaces'
+[1.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,318 @@
+[0.000000] (-) TimerEvent: {}
+[0.001255] (-) JobUnselected: {'identifier': 'turtlesim_bringup'}
+[0.001342] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.001383] (turtlesim_interfaces) JobQueued: {'identifier': 'turtlesim_interfaces', 'dependencies': OrderedDict()}
+[0.001421] (turtlesim_interfaces) JobStarted: {'identifier': 'turtlesim_interfaces'}
+[0.101610] (-) TimerEvent: {}
+[0.143593] (turtlesim_interfaces) JobProgress: {'identifier': 'turtlesim_interfaces', 'progress': 'cmake'}
+[0.144990] (turtlesim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces'], 'cwd': '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'othmene'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/othmene'), ('OLDPWD', '/home/othmene/Turtlesim-Catch-Them-All-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1562'), ('SYSTEMD_EXEC_PID', '1933'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45769'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'othmene'), ('JOURNAL_STREAM', '8:25055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'othmene'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/othmene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/othmene/.local/bin'), ('SESSION_MANAGER', 'local/othmene-VirtualBox:@/tmp/.ICE-unix/1708,unix/othmene-VirtualBox:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', '2a2074808ddc47aaafbdedb18ba2bfd0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IBBVK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ee1b98e9-5eef-4ac8-9072-ce676cf3b410'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble')]), 'shell': False}
+[0.166477] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.208945] (-) TimerEvent: {}
+[0.310063] (-) TimerEvent: {}
+[0.411521] (-) TimerEvent: {}
+[0.436406] (turtlesim_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.449225] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.453070] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.457506] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.511829] (-) TimerEvent: {}
+[0.513602] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.619006] (-) TimerEvent: {}
+[0.725912] (-) TimerEvent: {}
+[0.828312] (-) TimerEvent: {}
+[0.929807] (-) TimerEvent: {}
+[1.041511] (-) TimerEvent: {}
+[1.137316] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.142283] (-) TimerEvent: {}
+[1.248820] (-) TimerEvent: {}
+[1.349321] (-) TimerEvent: {}
+[1.452728] (-) TimerEvent: {}
+[1.518716] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.586406] (-) TimerEvent: {}
+[1.690114] (-) TimerEvent: {}
+[1.802097] (-) TimerEvent: {}
+[1.904771] (-) TimerEvent: {}
+[1.970438] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.005603] (-) TimerEvent: {}
+[2.014921] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.019022] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.075974] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.077031] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.077352] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.077604] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.106606] (-) TimerEvent: {}
+[2.118851] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.206778] (turtlesim_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.207125] (-) TimerEvent: {}
+[2.276921] (turtlesim_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.283835] (turtlesim_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces\n'}
+[2.298469] (turtlesim_interfaces) CommandEnded: {'returncode': 0}
+[2.302214] (turtlesim_interfaces) JobProgress: {'identifier': 'turtlesim_interfaces', 'progress': 'build'}
+[2.302888] (turtlesim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'othmene'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/othmene'), ('OLDPWD', '/home/othmene/Turtlesim-Catch-Them-All-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1562'), ('SYSTEMD_EXEC_PID', '1933'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45769'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'othmene'), ('JOURNAL_STREAM', '8:25055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'othmene'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/othmene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/othmene/.local/bin'), ('SESSION_MANAGER', 'local/othmene-VirtualBox:@/tmp/.ICE-unix/1708,unix/othmene-VirtualBox:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', '2a2074808ddc47aaafbdedb18ba2bfd0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IBBVK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ee1b98e9-5eef-4ac8-9072-ce676cf3b410'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble')]), 'shell': False}
+[2.309365] (-) TimerEvent: {}
+[2.377367] (turtlesim_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.396385] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.434484] (-) TimerEvent: {}
+[2.449019] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_turtlesim_interfaces\n'}
+[2.538463] (-) TimerEvent: {}
+[2.681620] (-) TimerEvent: {}
+[2.794917] (-) TimerEvent: {}
+[2.910009] (-) TimerEvent: {}
+[2.993523] (turtlesim_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.995029] (turtlesim_interfaces) StdoutLine: {'line': b'creating turtlesim_interfaces.egg-info\n'}
+[2.995870] (turtlesim_interfaces) StdoutLine: {'line': b'writing turtlesim_interfaces.egg-info/PKG-INFO\n'}
+[2.996682] (turtlesim_interfaces) StdoutLine: {'line': b'writing dependency_links to turtlesim_interfaces.egg-info/dependency_links.txt\n'}
+[2.997509] (turtlesim_interfaces) StdoutLine: {'line': b'writing top-level names to turtlesim_interfaces.egg-info/top_level.txt\n'}
+[2.998915] (turtlesim_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlesim_interfaces.egg-info/SOURCES.txt'\n"}
+[3.005885] (turtlesim_interfaces) StdoutLine: {'line': b"reading manifest file 'turtlesim_interfaces.egg-info/SOURCES.txt'\n"}
+[3.007379] (turtlesim_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlesim_interfaces.egg-info/SOURCES.txt'\n"}
+[3.015741] (-) TimerEvent: {}
+[3.072591] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_turtlesim_interfaces_egg\n'}
+[3.104142] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] Built target turtlesim_interfaces__cpp\n'}
+[3.125702] (turtlesim_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.125985] (-) TimerEvent: {}
+[3.162684] (turtlesim_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.163780] (turtlesim_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.224544] (turtlesim_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[3.228200] (-) TimerEvent: {}
+[3.361677] (-) TimerEvent: {}
+[3.475617] (-) TimerEvent: {}
+[3.499537] (turtlesim_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[3.593281] (-) TimerEvent: {}
+[3.613425] (turtlesim_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.698053] (-) TimerEvent: {}
+[3.723696] (turtlesim_interfaces) StdoutLine: {'line': b'[ 20%] Built target turtlesim_interfaces__rosidl_generator_c\n'}
+[3.747553] (turtlesim_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.809117] (-) TimerEvent: {}
+[3.814679] (turtlesim_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.869568] (turtlesim_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.912482] (-) TimerEvent: {}
+[3.926659] (turtlesim_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_interfaces/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[4.037194] (-) TimerEvent: {}
+[4.142951] (-) TimerEvent: {}
+[4.254340] (-) TimerEvent: {}
+[4.358619] (-) TimerEvent: {}
+[4.475795] (-) TimerEvent: {}
+[4.514878] (turtlesim_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_interfaces/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[4.583034] (-) TimerEvent: {}
+[4.672699] (turtlesim_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[4.697188] (-) TimerEvent: {}
+[4.813058] (-) TimerEvent: {}
+[4.917128] (-) TimerEvent: {}
+[4.917791] (turtlesim_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_interfaces/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[5.019179] (-) TimerEvent: {}
+[5.122718] (-) TimerEvent: {}
+[5.232536] (-) TimerEvent: {}
+[5.270977] (turtlesim_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[5.353659] (-) TimerEvent: {}
+[5.458557] (-) TimerEvent: {}
+[5.494145] (turtlesim_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.560564] (-) TimerEvent: {}
+[5.671463] (-) TimerEvent: {}
+[5.712375] (turtlesim_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_interfaces/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[5.740991] (turtlesim_interfaces) StdoutLine: {'line': b'[ 46%] Built target turtlesim_interfaces__rosidl_typesupport_cpp\n'}
+[5.781551] (-) TimerEvent: {}
+[5.783614] (turtlesim_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.783926] (turtlesim_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.926262] (-) TimerEvent: {}
+[5.950501] (turtlesim_interfaces) StdoutLine: {'line': b'[ 51%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.044341] (-) TimerEvent: {}
+[6.045058] (turtlesim_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.171945] (-) TimerEvent: {}
+[6.277745] (-) TimerEvent: {}
+[6.297180] (turtlesim_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.387850] (-) TimerEvent: {}
+[6.496421] (-) TimerEvent: {}
+[6.525508] (turtlesim_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.613043] (-) TimerEvent: {}
+[6.657714] (turtlesim_interfaces) StdoutLine: {'line': b'[ 58%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.716964] (-) TimerEvent: {}
+[6.741162] (turtlesim_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[6.755760] (turtlesim_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[6.785129] (turtlesim_interfaces) StdoutLine: {'line': b'[ 64%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.819168] (turtlesim_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[6.819457] (-) TimerEvent: {}
+[6.831256] (turtlesim_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[6.870857] (turtlesim_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.915058] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.921575] (-) TimerEvent: {}
+[6.936415] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.012175] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlesim_interfaces__rosidl_typesupport_c\n'}
+[7.021973] (-) TimerEvent: {}
+[7.054827] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlesim_interfaces\n'}
+[7.097735] (turtlesim_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.122110] (-) TimerEvent: {}
+[7.229469] (-) TimerEvent: {}
+[7.330388] (-) TimerEvent: {}
+[7.432014] (-) TimerEvent: {}
+[7.535079] (-) TimerEvent: {}
+[7.635670] (-) TimerEvent: {}
+[7.747116] (-) TimerEvent: {}
+[7.794824] (turtlesim_interfaces) StdoutLine: {'line': b'[ 76%] Built target turtlesim_interfaces__py\n'}
+[7.839659] (turtlesim_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/msg/_turtle_s.c.o\x1b[0m\n'}
+[7.840084] (turtlesim_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[7.854415] (-) TimerEvent: {}
+[7.955162] (-) TimerEvent: {}
+[8.055995] (-) TimerEvent: {}
+[8.144827] (turtlesim_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/libturtlesim_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.160049] (-) TimerEvent: {}
+[8.220564] (turtlesim_interfaces) StdoutLine: {'line': b'[ 84%] Built target turtlesim_interfaces__rosidl_generator_py\n'}
+[8.261081] (turtlesim_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.261369] (-) TimerEvent: {}
+[8.262273] (turtlesim_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.266987] (turtlesim_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.374332] (-) TimerEvent: {}
+[8.465080] (turtlesim_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.474525] (turtlesim_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.475273] (-) TimerEvent: {}
+[8.475697] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.551845] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.562855] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.572302] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.575664] (-) TimerEvent: {}
+[8.601066] (turtlesim_interfaces) CommandEnded: {'returncode': 0}
+[8.683177] (-) TimerEvent: {}
+[8.784092] (-) TimerEvent: {}
+[8.786202] (turtlesim_interfaces) JobProgress: {'identifier': 'turtlesim_interfaces', 'progress': 'install'}
+[8.804519] (turtlesim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces'], 'cwd': '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'othmene'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/othmene'), ('OLDPWD', '/home/othmene/Turtlesim-Catch-Them-All-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1562'), ('SYSTEMD_EXEC_PID', '1933'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45769'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'othmene'), ('JOURNAL_STREAM', '8:25055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'othmene'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/othmene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/othmene/.local/bin'), ('SESSION_MANAGER', 'local/othmene-VirtualBox:@/tmp/.ICE-unix/1708,unix/othmene-VirtualBox:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', '2a2074808ddc47aaafbdedb18ba2bfd0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IBBVK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ee1b98e9-5eef-4ac8-9072-ce676cf3b410'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble')]), 'shell': False}
+[8.818306] (turtlesim_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.822515] (turtlesim_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.824148] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlesim_interfaces\n'}
+[8.844271] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__functions.h\n'}
+[8.866364] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__struct.h\n'}
+[8.885431] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__type_support.h\n'}
+[8.885692] (-) TimerEvent: {}
+[8.902098] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__functions.h\n'}
+[8.922307] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__struct.h\n'}
+[8.948111] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[8.957843] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.977071] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/turtle.h\n'}
+[8.989832] (-) TimerEvent: {}
+[8.995250] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/turtle_array.h\n'}
+[9.013941] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/library_path.sh\n'}
+[9.031866] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/library_path.dsv\n'}
+[9.049828] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[9.066612] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[9.085058] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.096741] (-) TimerEvent: {}
+[9.101172] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[9.116874] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[9.135151] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.153244] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__builder.hpp\n'}
+[9.171882] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__struct.hpp\n'}
+[9.193464] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__traits.hpp\n'}
+[9.196941] (-) TimerEvent: {}
+[9.213533] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[9.230395] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[9.245765] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[9.265647] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/turtle.hpp\n'}
+[9.287947] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/turtle_array.hpp\n'}
+[9.297634] (-) TimerEvent: {}
+[9.307674] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.324474] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.339049] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.356264] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.374396] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.393205] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/pythonpath.sh\n'}
+[9.397972] (-) TimerEvent: {}
+[9.410738] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/pythonpath.dsv\n'}
+[9.431204] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.449999] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.469038] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.485516] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.498133] (-) TimerEvent: {}
+[9.504379] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/__init__.py\n'}
+[9.521652] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.537583] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.555275] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.571265] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/libturtlesim_interfaces__rosidl_generator_py.so\n'}
+[9.589746] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/__init__.py\n'}
+[9.598249] (-) TimerEvent: {}
+[9.608777] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/_turtle.py\n'}
+[9.625953] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/_turtle_array.py\n'}
+[9.641930] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/_turtle_array_s.c\n'}
+[9.656975] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/_turtle_s.c\n'}
+[9.676965] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.701645] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.702137] (-) TimerEvent: {}
+[9.719234] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.736942] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.737566] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.737792] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.738037] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/Turtle.idl\n'}
+[9.762852] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/TurtleArray.idl\n'}
+[9.777022] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/Turtle.msg\n'}
+[9.790357] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/msg/TurtleArray.msg\n'}
+[9.802385] (-) TimerEvent: {}
+[9.808594] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlesim_interfaces\n'}
+[9.827309] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlesim_interfaces\n'}
+[9.845175] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.sh\n'}
+[9.857824] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.889214] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.sh\n'}
+[9.901110] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.dsv\n'}
+[9.904239] (-) TimerEvent: {}
+[9.920757] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.bash\n'}
+[9.937902] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.sh\n'}
+[9.954665] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.zsh\n'}
+[9.971445] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.dsv\n'}
+[9.989228] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/package.dsv\n'}
+[10.004924] (-) TimerEvent: {}
+[10.010153] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/ament_index/resource_index/packages/turtlesim_interfaces\n'}
+[10.027441] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.047146] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.069839] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.077786] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.094399] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.105989] (-) TimerEvent: {}
+[10.112359] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.132451] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.149034] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig.cmake\n'}
+[10.168274] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig-version.cmake\n'}
+[10.186233] (turtlesim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/package.xml\n'}
+[10.205726] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_c.so\n'}
+[10.205998] (-) TimerEvent: {}
+[10.206597] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.206937] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.208458] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.209699] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.210404] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.210585] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_c.so\n'}
+[10.210943] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.211181] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.212558] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.213438] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.213717] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.213845] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.214824] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.286613] (turtlesim_interfaces) StdoutLine: {'line': b"Listing '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces'...\n"}
+[10.286846] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/__init__.py'...\n"}
+[10.287071] (turtlesim_interfaces) StdoutLine: {'line': b"Listing '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg'...\n"}
+[10.287177] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/__init__.py'...\n"}
+[10.287279] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/_turtle.py'...\n"}
+[10.287371] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages/turtlesim_interfaces/msg/_turtle_array.py'...\n"}
+[10.287463] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_py.so\n'}
+[10.288000] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.288801] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.289284] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.289577] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.289885] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.290479] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.291412] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.291813] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.292158] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.292575] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.293133] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.293532] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.294260] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.294545] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.294772] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.294997] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.295283] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.295417] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.302342] (turtlesim_interfaces) CommandEnded: {'returncode': 0}
+[10.307246] (-) TimerEvent: {}
+[10.428327] (-) TimerEvent: {}
+[10.529164] (-) TimerEvent: {}
+[10.630589] (-) TimerEvent: {}
+[10.733703] (-) TimerEvent: {}
+[10.785763] (turtlesim_interfaces) JobEnded: {'identifier': 'turtlesim_interfaces', 'rc': 0}
+[10.787099] (-) EventReactorShutdown: {}

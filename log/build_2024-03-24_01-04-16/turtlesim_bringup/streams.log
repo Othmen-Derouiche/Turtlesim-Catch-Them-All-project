@@ -1,0 +1,40 @@
+[0.344s] Invoking command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake /home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup -DCMAKE_INSTALL_PREFIX=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup
+[0.892s] -- The C compiler identification is GNU 11.4.0
+[0.894s] -- The CXX compiler identification is GNU 11.4.0
+[0.895s] -- Detecting C compiler ABI info
+[0.895s] -- Detecting C compiler ABI info - done
+[0.895s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.895s] -- Detecting C compile features
+[0.896s] -- Detecting C compile features - done
+[0.896s] -- Detecting CXX compiler ABI info
+[0.896s] -- Detecting CXX compiler ABI info - done
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.896s] -- Detecting CXX compile features
+[0.896s] -- Detecting CXX compile features - done
+[0.906s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.200s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.525s] -- Configuring done
+[1.531s] -- Generating done
+[1.532s] -- Build files have been written to: /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup
+[1.542s] Invoked command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup' returned '0': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake /home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_bringup -DCMAKE_INSTALL_PREFIX=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup
+[1.542s] Invoking command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup -- -j4 -l4
+[1.610s] Invoked command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup' returned '0': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup -- -j4 -l4
+[1.702s] Invoking command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup
+[1.720s] -- Install configuration: ""
+[1.721s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/launch
+[1.721s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/ament_index/resource_index/package_run_dependencies/turtlesim_bringup
+[1.722s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/ament_index/resource_index/parent_prefix_path/turtlesim_bringup
+[1.722s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/environment/ament_prefix_path.sh
+[1.722s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/environment/ament_prefix_path.dsv
+[1.723s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/environment/path.sh
+[1.723s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/environment/path.dsv
+[1.723s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.bash
+[1.723s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.sh
+[1.724s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.zsh
+[1.724s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/local_setup.dsv
+[1.725s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/package.dsv
+[1.725s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/ament_index/resource_index/packages/turtlesim_bringup
+[1.726s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/cmake/turtlesim_bringupConfig.cmake
+[1.726s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/cmake/turtlesim_bringupConfig-version.cmake
+[1.726s] -- Installing: /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_bringup/share/turtlesim_bringup/package.xml
+[1.730s] Invoked command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup' returned '0': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup

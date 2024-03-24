@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.001273] (-) JobUnselected: {'identifier': 'turtlesim_bringup'}
+[0.001339] (-) JobUnselected: {'identifier': 'turtlesim_interfaces'}
+[0.001370] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('turtlesim_interfaces', '/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces')])}
+[0.001411] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.100553] (-) TimerEvent: {}
+[0.131657] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 1}
+[0.144996] (-) EventReactorShutdown: {}

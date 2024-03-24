@@ -1,0 +1,18 @@
+[1.162s] Invoking command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces LD_LIBRARY_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all/prefix_override:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all/build --no-deps install_data
+[1.543s] running develop
+[1.806s] running egg_info
+[1.806s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[1.807s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[1.807s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[1.807s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[1.808s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[1.810s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.812s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.814s] running build_ext
+[1.815s] Creating /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[1.816s] Installing turtle_controller script to /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.816s] Installing turtle_spawner script to /home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.817s] 
+[1.817s] Installed /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all
+[1.817s] running install_data
+[1.889s] Invoked command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces LD_LIBRARY_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all/prefix_override:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_catch_them_all/build --no-deps install_data

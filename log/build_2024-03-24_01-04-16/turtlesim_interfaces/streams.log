@@ -1,0 +1,30 @@
+[0.670s] Invoking command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake /home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces -DCMAKE_INSTALL_PREFIX=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces
+[0.756s] -- The C compiler identification is GNU 11.4.0
+[0.845s] -- The CXX compiler identification is GNU 11.4.0
+[0.856s] -- Detecting C compiler ABI info
+[0.979s] -- Detecting C compiler ABI info - done
+[0.992s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.993s] -- Detecting C compile features
+[0.994s] -- Detecting C compile features - done
+[1.000s] -- Detecting CXX compiler ABI info
+[1.150s] -- Detecting CXX compiler ABI info - done
+[1.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.163s] -- Detecting CXX compile features
+[1.164s] -- Detecting CXX compile features - done
+[1.167s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.502s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.699s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.739s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.987s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.988s]   rosidl_generate_interfaces() the passed file 'srv/CatchTurtle.srv' doesn't
+[1.988s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.988s]   '/home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces'
+[1.988s] Call Stack (most recent call first):
+[1.988s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.988s] 
+[1.988s] [0m
+[1.988s] -- Configuring incomplete, errors occurred!
+[1.989s] See also "/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces/CMakeFiles/CMakeOutput.log".
+[1.998s] Invoked command in '/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake /home/othmene/Turtlesim-Catch-Them-All-project/src/turtlesim_interfaces -DCMAKE_INSTALL_PREFIX=/home/othmene/Turtlesim-Catch-Them-All-project/install/turtlesim_interfaces

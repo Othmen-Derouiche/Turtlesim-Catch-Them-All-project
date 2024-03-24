@@ -1,0 +1,9 @@
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/uninstall.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/turtlesim_bringup_uninstall.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/test.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/edit_cache.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/rebuild_cache.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/list_install_components.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/install.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/install/local.dir
+/home/othmene/Turtlesim-Catch-Them-All-project/build/turtlesim_bringup/CMakeFiles/install/strip.dir
