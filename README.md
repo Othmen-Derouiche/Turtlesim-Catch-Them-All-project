@@ -54,6 +54,13 @@ ros2 launch turtlesim turtlesim_catch_them_all.launch.py
   <img src="files/screenshot.png" alt="screenshot" />
 </p>
 
+```bash
+rqt_graph
+```
+**Here’s the rqt_graph with the nodes and topics**
+<p align="center">
+  <img src="files/rqt_graph.png" alt="reqt_graph" />
+</p>
 ## Developpment :
 If you want to go further you can, for example:
 
