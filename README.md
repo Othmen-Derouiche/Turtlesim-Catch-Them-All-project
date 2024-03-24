@@ -16,6 +16,26 @@ For this project, I used the Turtlesim package as a simulation tool to visualize
 2. Custom node named `turtle_controller` to control the turtle named "turtle1" in `turtlesim_node`.
 3. Custom node named `turtle_spawner` to spawn turtles and manage which turtle is still “alive”on the window.
 
+### Functionalities:
+
+* **The turtle_spawner node will have to:**
+1. Call the /spawn service to create a new turtle (choose random coordinates between 0.0
+and 11.0 for both x and y), and call the /kill service to remove a turtle from the screen.
+Both those services are already advertised by the turtlesim_node.
+2. Publish the list of currently alive turtles with coordinates on a topic /alive_turtles.
+3. Handle a service server to “catch” a turtle, which means to call the /kill service and
+remove the turtle from the array of alive turtles.
+
+* **The turtle_controller node will have to:**
+1. Run a control loop (for example using a timer with a high rate) to reach a given target
+point. The first turtle on the screen “turtle1” will be the “master” turtle to control. To
+control the turtle you can subscribe to /turtle1/pose and publish to /turtle1/cmd_vel.
+2. The control loop will use a simplified P controller.
+3. Subscribe to the /alive_turtles topic to get all current turtles with coordinates. From that
+info, select a turtle to target (to catch).
+4. When a turtle has been caught by the master turtle, call the service /catch_turtle
+advertised by the turtle_spawner node.
+
 ## Installation:
 
 Requires a ROS2 distribution (e.g., ROS2 Humble LTS).
